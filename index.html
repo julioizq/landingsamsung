@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/53728ce9ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Landing page - Samsung</title>
+</head>
+
+<body>
+    <header>
+        <div class="centrado">
+            <img src="img/logosamsung.png" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="centrado">
+            <h1>Galaxy Z Flip</h1>
+            <div id="visual-uno">
+                <h2>Ábrete al futuro</h2>
+                <form action="php/enviar.php" method="post">
+                    <h3>¡Regístrate y gana un <span class="sorteo">Samsung Galaxy Z Flip</span>!</h3>
+
+                    <label for="nombre" class="etiquetas">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" class="campos"><br>
+
+                    <label for="apellidos" class="etiquetas">Apellidos</label>
+                    <input type="text" name="apellidos" id="apellidos" class="campos"><br>
+
+                    <label for="correo" class="etiquetas">Correo</label>
+                    <input type="email" name="correo" id="correo" class="campos"><br>
+
+                    <input type="checkbox" name="check" id="check" required class="cajita">
+                    <label for="check" class="check">Pulsando aquí reconozco haber leído los <a href="#">términos y condiciones</a>.</label>
+
+                    <input type="submit" value="REGÍSTRATE" class="boton">
+                </form>
+            </div>
+            <div id="visual-dos">
+                <img src="img/movil.png" alt="">
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="visual-tres">
+            <div class="centrado">
+                <div class="col">
+                    <h5><i class="fa-solid fa-camera"></i></h5>
+                    <h4>Cámara de 12MP</h4>
+                    <p> Gran angular con cámara frontal de 10 MP</p>
+                </div>
+                <div class="col">
+                    <h5><i class="fa-solid fa-microchip"></i></h5>
+                    <h4>AP de 64 bits</h4>
+                    <p>Procesador 7nm 64-bit Octa-Core 2.95GHz</p>
+                </div>
+                <div class="col">
+                    <h5><i class="fa-solid fa-arrows-up-down"></i></h5>
+                    <h4> Desplegable</h4>
+                    <p> Reduce su tamaño a la mitad para mejor manejo</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="centrado">
+            <p>Copyright ⓒ 1995-2022 Samsung. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

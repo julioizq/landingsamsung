@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'samsung_sharp_sansbold';
+    src: url('../tipos/samsungsharpsansbd-webfont.woff2') format('woff2'),
+         url('../tipos/samsungsharpsansbd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'samsung_sharp_sansbold';
+    margin: auto;
+    text-align: center;
+    background-image: url(../img/fondo-grande2.jpg);
+    background-position: top center;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+h3{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.subtitulo{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+p a{
+    text-decoration: none;
+    color: rgb(0, 187, 255);
+}
+.clear{
+    clear: both;
+}
+.centrado{
+    width: 960px;
+    margin: auto;
+}
+main{
+    padding: 80px;
+}
+header{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    margin-bottom: 50px;
+}
+section{
+    padding-bottom: 40px;
+}
+h1{
+    text-align: center;
+    border-top: 1px black solid;
+    width: 550px;
+    margin: auto;
+    padding: 40px;
+    font-size: 30px;
+}
+.icono{
+    color: yellow;
+    text-shadow: 5px 5px 10px rgb(61, 61, 61);
+}
+.col-02{
+    width: 310px;
+    height: 250px;
+    background-color: rgb(255, 0, 149);
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.582);
+}
+.col-01{
+    width: 630px;
+    height: 250px;
+    background-color: rgb(255, 0, 149);
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-image: url(../img/tv.jpg);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.582);
+}
+#uno{
+    background-image: url(../img/electrodomesticos.jpg);
+}
+#dos{
+    background-image: url(../img/estudiantes.jpg);
+}
+#tres{
+    background-image: url(../img/tvdos.jpg);
+}
+#cuatro{
+    background-image: url(../img/movil.jpg);
+}
+#novedades a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.301);
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    transition: all ease 0.7s;
+    border-radius: 5px;
+}
+#novedades a:hover{
+    background-color: rgba(255, 255, 255, 0.651);
+    color: black;
+}
+#novedades .btn{
+    background-color: rgba(49, 49, 49, 0.493);
+    transition: all ease 1s;
+}
+#novedades .btn:hover{
+    background-color: rgba(0, 0, 0, 0.781);
+    color: white;
+}
+#ofertas .bloque{
+    text-align: center;
+    width: 185px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    float: left;
+    margin-right: 5px;
+    transition: all ease 0.25s;
+    color: black;
+    text-shadow: none;
+}
+#ofertas .bloque:hover{
+    transform: scale(1.025) translateY(-8px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
+
+}
+h5{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 10px;
+}
+p{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ofertas .bloque a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
